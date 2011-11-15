@@ -19,3 +19,7 @@ It takes an array of JSON objects. It only goes **one** level deep. If you have 
       {"foo":"minchia"},
       {"cazzo":"minchia"}
     ]);
+
+# Demo
+
+[DEMONSTRATION](http://lmatteis.github.com/jquery-report/)
