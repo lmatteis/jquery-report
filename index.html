@@ -19,22 +19,27 @@
 <script>
 $(function(){
   $("table").report([
-    {
-      "foo":"bar",
-      "cazzo": "ciao"
-    },
-    {"motherfucker":"kitchen"},
-    {"motherfucker":"food"},
-    {"perl":"food"},
-    {"motherfucker":"apple"},
-    {"motherfucker":"cacca"},
-    {"foo":"minchia"},
-    {"cazzo":"minchia"}
+{"type": "address", "name": "Fred", "mobile": "555-0001"},
+{"type": "address", "name": "Barney", "mobile": "555-0002"},
+{"type": "address", "name": "Audrey", "mobile": "555-0003", "city": "Minneapolis"},
+{"type": "address", "name": "Barney", "mobile": "555-0004", "city": "Georgia, Funksville", "sex": "male"},
+{"type": "address", "city": "Idaho", "sex": "female", "name": "Alissa"},
+{"type": "address", "sex": "female", "name": "Dardia"}  
   ]);
 });
 </script>
   </head>
 <body>
+<pre>
+<code>
+{"type": "address", "name": "Fred", "mobile": "555-0001"}
+{"type": "address", "name": "Barney", "mobile": "555-0002"}
+{"type": "address", "name": "Audrey", "mobile": "555-0003", "city": "Minneapolis"}  
+{"type": "address", "name": "Barney", "mobile": "555-0004", "city": "Georgia, Funksville", "sex": "male"}  
+{"type": "address", "city": "Idaho", "sex": "female", "name": "Alissa"}  
+{"type": "address", "sex": "female", "name": "Dardia"}  
+</code>
+</pre>
 <table class="bordered-table zebra-striped">
 </table>
 </body>
